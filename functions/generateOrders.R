@@ -2,6 +2,10 @@ library(stringi)
 library(data.table) 
 library(feather) 
 
+if(!dir.exists("dict")){
+  dir.create("dict") 
+}
+
 source("functions/getCities.R") 
 source("functions/getNames.R") 
 
