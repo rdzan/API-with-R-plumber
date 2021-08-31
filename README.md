@@ -37,3 +37,8 @@ Uwierzytelnienie
 ----------------
 
 W podanym przykładzie uwierzytelnienie jest zrobione po stronie API. Każda metoda zawiera parametr **userKey** będący kluczem uwierzytelniającym. Jeśli klucz pasuje do zapisanej w pliku *usersKey.txt* listy kluczy logujemy odpytanie i próbujemy je zrealizować, wpp zapytanie jest wstrzymane i zwracany jest error.
+
+Example
+-------
+
+W celu testowania API wywołaj plik *functions/generateOrders.R* i postepuj zgodnie z dokumentacją API [http://127.0.0.1:7494/**docs**/](http://127.0.0.1:7494/__docs__/).
