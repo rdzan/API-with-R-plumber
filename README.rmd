@@ -5,7 +5,9 @@ output: github_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
+``` 
+
+![](readme.gif)
 
 ## Hosting 
 API uruchamia sie na porcie 7494 (patrz plik *runAPI.R*). W celu trwałego uruchomienia API na serwerze należy wywołać skrypt *runAPI.R*. Nie zrobimy tego poprzez wywołanie odpowiedniej komendy w terminalu gdyż po jego zamknięciu proces zostaje skillowany i API przestaje działać. W związku z tym wykorzystamy program [screen](https://askubuntu.com/questions/389834/how-to-run-application-from-terminal-forever). 

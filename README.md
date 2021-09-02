@@ -1,6 +1,8 @@
 Plumber - hosting API
 ================
 
+![](readme.gif)
+
 Hosting
 -------
 
